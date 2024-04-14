@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+numpy
+ruff
+praw
+pprint
+spacy
+re
+matplotlib
+seaborn
