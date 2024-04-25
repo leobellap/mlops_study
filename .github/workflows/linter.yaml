@@ -2,6 +2,8 @@ name: Lint Notebooks
 
 on:
   push:
+    branches:
+      - CI-CD
     paths:
     - '**.ipynb'
 
@@ -11,6 +13,8 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+      with:
+        ref: 'CI-CD'
 
     - name: Set up Python
       uses: actions/setup-python@v2
