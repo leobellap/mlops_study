@@ -2,9 +2,7 @@ name: Python linter
 
 on:
   push:
-    branches:
-      - "master"
-      - "CI-CD"
+    branches: ["master", "CI-CD"]
 
 jobs:
   build:
