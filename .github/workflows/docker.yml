@@ -3,7 +3,6 @@ name: Docker builder
 on:
   push:
     branches:
-      - 'master'
       - 'CI-CD'
 
 jobs:
