@@ -2,7 +2,7 @@ name: Docker builder
 
 on:
   push:
-    branches: "CI-CD"
+    branches: [CI-CD]
 
 jobs:
   build:
