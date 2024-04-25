@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - CI-CD
-    paths:
-    - '**.ipynb'
 
 jobs:
   lint:
