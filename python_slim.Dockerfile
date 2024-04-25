@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ci_cd_task.ipynb ./
 COPY ny-2015-street-tree-census-tree-data.zip ./
+COPY pyproject.toml ./
 
 EXPOSE 8888
 ENTRYPOINT [ "jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--allow-root" ]
