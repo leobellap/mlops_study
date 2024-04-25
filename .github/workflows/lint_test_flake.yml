@@ -2,6 +2,8 @@ name: Lint Notebooks
 
 on:
   push:
+    branches:
+      - CI-CD
     paths:
     - '**.ipynb'
 
