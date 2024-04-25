@@ -1,9 +1,6 @@
 name: ci
 
-on:
-  push:
-    branches:
-      - "CI-CD"
+on: push
 
 jobs:
   build:
