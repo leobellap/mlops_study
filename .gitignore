@@ -2,3 +2,4 @@
 mlops_env/
 ny-2015-street-tree-census-tree-data.zip
 trees_map.html
+.ruff_cache/
