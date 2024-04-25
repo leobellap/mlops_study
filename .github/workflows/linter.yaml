@@ -1,9 +1,6 @@
 name: Lint Notebooks
 
-on:
-  push:
-    branches:
-      - CI-CD
+on: push
 
 jobs:
   lint:
