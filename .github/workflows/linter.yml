@@ -1,4 +1,4 @@
-name: Python linter
+name: Lint on push
 
 on: push
 
@@ -25,4 +25,4 @@ jobs:
         python -m pip install ruff
     - name: Lint with ruff
       run: |
-        ruff check --output-format=github .
+        ruff check
