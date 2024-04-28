@@ -40,5 +40,4 @@ jobs:
           context: .
           file: ./python_slim.Dockerfile
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          tags: user/app:latest
