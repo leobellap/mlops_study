@@ -3,6 +3,4 @@ mlops_env/
 trees_map.html
 .ruff_cache/
 .mypy_cache/
-ci_cd_task_files/
-
 /.quarto/
